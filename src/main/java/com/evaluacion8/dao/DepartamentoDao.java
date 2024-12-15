@@ -6,5 +6,5 @@ import com.evaluacion8.modelo.Departamento;
 
 
 public interface DepartamentoDao {
-	public List<Departamento> obtieneDepartamento();
+	public List<Departamento> obtieneDepartamento(String nombreDepto, int numDepto, String ubicacionDepto);
 }
